@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menampilkan Output - HyNusantara Academy</title>
+</head>
+<body>
+    <h1>Menampilkan Output - HyNusantara Academy</h1>
+    <p>Ada 3 cara sederhana menampilkan output dari Javascript:
+        <ol>
+            <li>Console</li>
+            <li>Elemen</li>
+            <li>Alert</li>
+        </ol>
+    </p>
+
+    <h2>Console</h2>
+    <p>Gunakan <b>console.log()</b> untuk menampilkan output di console. Akses console pada browser menggunakan tombol <b>F12</b>.</p>
+
+    <h2>Elemen</h2>
+    <p>Gunakan <b>innerHtml</b> pada setiap object elemen. Maka outputnya langsung dapat dilihat di halaman <a href="javascript:outputToHtml()">HTML</a>. <span id="out"></span></p>
+
+    <h2>Alert</h2>
+    <p>Gunakan <b>alert()</b> untuk menampilkan output berupa <a href="javascript:outputToAlert()">pop-up</a>.</p>
+
+    <hr>
+    <p>Materi selanjutnya adalah <a href="variabel.html">Variabel dan Tipe Data</a></p>
+
+    <script>
+        function outputToAlert() {
+            alert('Tadaaa...');
+        }
+
+        function outputToHtml() {
+            document.getElementById('out').innerHTML = 'Tadaaa';
+        }
+        console.log('Ini adalah halaman console. Output javascript akan muncul disini.')
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array - HyNusantara Academy</title>
+</head>
+<body>
+    <h1>Array - HyNusantara Academy</h1>
+    <p>Array adalah bentuk variabel yang dapat menyimpan banyak data dalam satu nama variabel.</p>
+    <p>Perhatikan contoh koding berikut!</p>
+    <pre>
+        // Membuat array 
+        var arraySatu = [19, 23, 4, 7, 18];
+
+        // Membuat array
+        var arrayDua = new Array(19, 23, 4, 7, 18);
+    </pre>
+
+    <p>Cara menggunakan data yang sudah disimpan di dalam array adalah sebagai berikut</p>
+    <pre>
+        // Akses data pada array
+        console.log( arraySatu[3] ); // 7
+    </pre>
+
+    <p>Cara mengubah data di dalam array adalah</p>
+    <pre>
+        // Ubah data pada array
+        arraySatu[3] = 15;
+    </pre>
+
+    <p>Array juga dapat diakses menggunakan <b>for</b> atau <b>while</b>.</p>
+    <p>Perhatikan koding berikut.</p>
+    <pre>
+        // Akses array menggunakan for
+        for(let i = 0; i < arraySatu.length; i++) {
+            console.log( arraySatu[i] )
+        }
+    </pre>
+
+    <hr>
+    <p>Materi selanjutnya adalah <a href="function.html">Function</a>.</p>
+
+    <script>
+        // Membuat array 
+        var arraySatu = [19, 23, 4, 7, 18];
+
+        // Membuat array
+        var arrayDua = new Array(19, 23, 4, 7, 18);
+
+        // Akses data pada array
+        console.log( arraySatu[3] ); // 7
+
+        // Ubah data pada array
+        arraySatu[3] = 15;
+
+        // Output data
+        console.log( arraySatu[3] );
+
+        // Akses array menggunakan for
+        for(let i = 0; i < arraySatu.length; i++) {
+            console.log( arraySatu[i] )
+        }
+    </script>
+</body>
+</html>

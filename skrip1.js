@@ -1,0 +1,1 @@
+console.log('Load Javascript dari file skrips1.js');
